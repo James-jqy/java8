@@ -46,5 +46,7 @@ public class Stream_method {
         Integer integer = any.get();
         System.out.println(integer);
 
+
+
     }
 }
