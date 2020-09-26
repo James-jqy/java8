@@ -12,6 +12,8 @@ import java.util.stream.Stream;
  */
 public class StreamReduce {
     public static void main(String[] args) {
+
+
         Stream<Integer> stream1 = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8).stream();
         Integer reduce = stream1.reduce(0, (i, j) -> i + j);
         System.out.println(reduce);
