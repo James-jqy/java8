@@ -27,5 +27,7 @@ public class Practise {
 	    System.out.println(123);
 
         System.out.println("hello git" );
+        System.out.println("3 commit");
+
     }
 }
