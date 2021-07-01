@@ -23,7 +23,9 @@ public class Practise {
 
         Arrays.asList("z","hello", "lEEtcode", "say").stream()
                 .sorted(MyFunction::compare).forEach(System.out::println);
-	// 新添加的内容
-	System.out.println(123);
+	    // 新添加的内容
+	    System.out.println(123);
+
+        System.out.println("hello git" );
     }
 }
